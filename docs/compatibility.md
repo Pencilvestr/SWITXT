@@ -50,7 +50,39 @@ script behavior, not firmware loading, actual glyph rendering, available memory,
 or a manufacturer's firmware build. Automated layout checks include color areas
 of 480×272, 480×320, 320×480, and 800×480, plus smaller widget zones.
 
-No radio or EdgeTX simulator acceptance test has been completed for this change.
+## Native simulator results
+
+The pinned official **EdgeTX 2.12.5** simulator passed on these eight targets:
+
+| Target | Resolution | Screen | Result |
+| :--- | :--- | :--- | :--- |
+| RadioMaster TX16S MK3 | 800×480 | Color | PASS |
+| RadioMaster TX16S | 480×272 | Color | PASS |
+| RadioMaster TX15 | 480×320 | Color | PASS |
+| FlySky NV14 | 320×480 | Color, portrait | PASS |
+| FlySky PA01 | 320×240 | Color | PASS |
+| RadioMaster Boxer | 128×64 | Monochrome | PASS |
+| RadioMaster Pocket | 128×64 | Monochrome | PASS |
+| FrSky X9D+ 2019 | 212×64 | Grayscale monochrome | PASS |
+
+Tests use native logical-switch evaluation and unchanged production Lua files.
+They check each label, first-match priority, clearing inactive text in actual
+pixels, and labels staying clear of screen edges. Color tests also check native
+font measurements, long-label truncation, configured colors, small zones, and
+full-screen entry/exit through the simulator's normal input interface.
+
+The adapter reads the LCD framebuffer directly, avoiding desktop screen capture.
+Color frames use RGB565, 128×64 frames use page-packed bits, and 212×64 frames
+use four-bit grayscale pixel pairs. Runtime hashes are pinned to the official
+release archive. The [native test guide](../tests/native/README.md) explains
+reproduction, and the [verification record](native-verification.json) records
+checks and production source hashes. See the [screenshot gallery](native-screenshots.md).
+
+Physical-radio testing remains pending. These results cover the eight named
+simulator targets on 2.12.5; they do not establish every supported radio,
+every firmware version, interactive settings editing, persistence after restart,
+long-duration endurance, or hardware performance. EdgeTX 2.11 remains the API
+design baseline, rather than a native-tested version.
 
 ## Radio/simulator acceptance checklist
 
@@ -70,7 +102,8 @@ it verified:
 
 | Radio | Screen | EdgeTX version | Result |
 | :--- | :--- | :--- | :--- |
-| Hardware / simulator acceptance | — | — | Pending |
+| Native simulator acceptance | Eight targets above | 2.12.5 | PASS |
+| Physical-radio acceptance | — | — | Pending |
 
 ## API sources reviewed
 

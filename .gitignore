@@ -1,1 +1,4 @@
 work/
+__pycache__/
+*.pyc
+*.luac

@@ -30,11 +30,11 @@ SWITXT 1.3 targets **EdgeTX 2.11 and later with Lua enabled**. Choose the versio
 | Color, landscape or portrait | [main.lua](main.lua) | Switch positions, labels, and colors in Widget settings |
 | Monochrome 128×64 or 212×64 | [mono/switxt.lua](mono/switxt.lua) | Logical switches per model; labels edited in the script |
 
-Layout follows the available screen area rather than a radio model name. The code has automated behavior and layout checks, but **radio and EdgeTX simulator acceptance testing is still pending**. See the [compatibility notes and test checklist](docs/compatibility.md) for the scope and limitations.
+Layout follows the available screen area rather than a radio model name. **Eight native EdgeTX 2.12.5 simulator targets pass**, spanning five color radios and three monochrome radios. Physical-radio testing remains pending. See the [compatibility notes and test checklist](docs/compatibility.md) for the exact targets and limitations.
 
 ## Screenshots
 
-Screenshots below show the original color widget; updated-version and monochrome screenshots are pending.
+Screenshots below show the original color widget. The [native simulator gallery](docs/native-screenshots.md) shows this update on color and monochrome targets using synthetic test models.
 
 <p align="center">
   <img src="Images/screen-2026-08-18-100929.png" alt="SWITXT screenshot 1 on the radio display" width="480">
