@@ -13,6 +13,23 @@ Custom switch-status text for color and monochrome EdgeTX radios.
 
 ## Screenshots
 
+### In use on the TX16S MK3
+
+Original screenshots showing the widget in your radio layout.
+
+<p align="center">
+  <img src="Images/screen-2026-08-18-100929.png" alt="SWITXT in use on the RadioMaster TX16S MK3" width="480">
+</p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="Images/screen-2026-08-18-100947.png" alt="Original TX16S MK3 widget screenshot 2" width="480"></td>
+    <td width="50%"><img src="Images/screen-2026-08-18-100950.png" alt="Original TX16S MK3 widget screenshot 3" width="480"></td>
+  </tr>
+</table>
+
+### Simulator screenshots
+
 | Color · TX16S | Monochrome · Boxer |
 | :---: | :---: |
 | ![TX16S showing ARMED](docs/images/native-tx16s.png) | <img src="docs/images/native-boxer.png" alt="Boxer monochrome screen showing ARMED" width="256"> |
