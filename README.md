@@ -13,9 +13,7 @@ Custom switch-status text for color and monochrome EdgeTX radios.
 
 ## Screenshots
 
-### In use on the TX16S MK3
-
-Original screenshots showing the widget in your radio layout.
+### TX16S MK3
 
 <p align="center">
   <img src="Images/screen-2026-08-18-100929.png" alt="SWITXT in use on the RadioMaster TX16S MK3" width="480">
