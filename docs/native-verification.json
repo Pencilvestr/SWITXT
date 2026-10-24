@@ -1,0 +1,372 @@
+{
+  "status": "PASS",
+  "targets": [
+    {
+      "radio": "tx16smk3",
+      "resolution": [
+        800,
+        480
+      ],
+      "firmware": "2.12.5",
+      "status": "PASS",
+      "checks": {
+        "process_exit": true,
+        "no_script_error": true,
+        "phase_labels": true,
+        "native_version": true,
+        "switch_evaluation": true,
+        "production_copy_unchanged": true,
+        "frame_armed": true,
+        "frame_disarmed": true,
+        "frame_motor-off": true,
+        "frame_priority": true,
+        "frame_blank": true,
+        "frame_small": true,
+        "frame_long-small": true,
+        "frame_normal": true,
+        "frame_fullscreen": true,
+        "frame_fullscreen-blank": true,
+        "frame_returned": true,
+        "blank_clears_pixels": true,
+        "visible_labels": true,
+        "labels_clear_of_edges": true,
+        "priority_matches_first": true,
+        "fits_native_font_metrics": true,
+        "long_label_has_ellipsis": true,
+        "real_fullscreen_and_return": true,
+        "fullscreen_clears_pixels": true,
+        "saved_option_values": true,
+        "configured_colors_render": true
+      },
+      "source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "radio": "tx16s",
+      "resolution": [
+        480,
+        272
+      ],
+      "firmware": "2.12.5",
+      "status": "PASS",
+      "checks": {
+        "process_exit": true,
+        "no_script_error": true,
+        "phase_labels": true,
+        "native_version": true,
+        "switch_evaluation": true,
+        "production_copy_unchanged": true,
+        "frame_armed": true,
+        "frame_disarmed": true,
+        "frame_motor-off": true,
+        "frame_priority": true,
+        "frame_blank": true,
+        "frame_small": true,
+        "frame_long-small": true,
+        "frame_normal": true,
+        "frame_fullscreen": true,
+        "frame_fullscreen-blank": true,
+        "frame_returned": true,
+        "blank_clears_pixels": true,
+        "visible_labels": true,
+        "labels_clear_of_edges": true,
+        "priority_matches_first": true,
+        "fits_native_font_metrics": true,
+        "long_label_has_ellipsis": true,
+        "real_fullscreen_and_return": true,
+        "fullscreen_clears_pixels": true,
+        "saved_option_values": true,
+        "configured_colors_render": true
+      },
+      "source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "radio": "tx15",
+      "resolution": [
+        480,
+        320
+      ],
+      "firmware": "2.12.5",
+      "status": "PASS",
+      "checks": {
+        "process_exit": true,
+        "no_script_error": true,
+        "phase_labels": true,
+        "native_version": true,
+        "switch_evaluation": true,
+        "production_copy_unchanged": true,
+        "frame_armed": true,
+        "frame_disarmed": true,
+        "frame_motor-off": true,
+        "frame_priority": true,
+        "frame_blank": true,
+        "frame_small": true,
+        "frame_long-small": true,
+        "frame_normal": true,
+        "frame_fullscreen": true,
+        "frame_fullscreen-blank": true,
+        "frame_returned": true,
+        "blank_clears_pixels": true,
+        "visible_labels": true,
+        "labels_clear_of_edges": true,
+        "priority_matches_first": true,
+        "fits_native_font_metrics": true,
+        "long_label_has_ellipsis": true,
+        "real_fullscreen_and_return": true,
+        "fullscreen_clears_pixels": true,
+        "saved_option_values": true,
+        "configured_colors_render": true
+      },
+      "source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "radio": "nv14",
+      "resolution": [
+        320,
+        480
+      ],
+      "firmware": "2.12.5",
+      "status": "PASS",
+      "checks": {
+        "process_exit": true,
+        "no_script_error": true,
+        "phase_labels": true,
+        "native_version": true,
+        "switch_evaluation": true,
+        "production_copy_unchanged": true,
+        "frame_armed": true,
+        "frame_disarmed": true,
+        "frame_motor-off": true,
+        "frame_priority": true,
+        "frame_blank": true,
+        "frame_small": true,
+        "frame_long-small": true,
+        "frame_normal": true,
+        "frame_fullscreen": true,
+        "frame_fullscreen-blank": true,
+        "frame_returned": true,
+        "blank_clears_pixels": true,
+        "visible_labels": true,
+        "labels_clear_of_edges": true,
+        "priority_matches_first": true,
+        "fits_native_font_metrics": true,
+        "long_label_has_ellipsis": true,
+        "real_fullscreen_and_return": true,
+        "fullscreen_clears_pixels": true,
+        "saved_option_values": true,
+        "configured_colors_render": true
+      },
+      "source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "radio": "pa01",
+      "resolution": [
+        320,
+        240
+      ],
+      "firmware": "2.12.5",
+      "status": "PASS",
+      "checks": {
+        "process_exit": true,
+        "no_script_error": true,
+        "phase_labels": true,
+        "native_version": true,
+        "switch_evaluation": true,
+        "production_copy_unchanged": true,
+        "frame_armed": true,
+        "frame_disarmed": true,
+        "frame_motor-off": true,
+        "frame_priority": true,
+        "frame_blank": true,
+        "frame_small": true,
+        "frame_long-small": true,
+        "frame_normal": true,
+        "frame_fullscreen": true,
+        "frame_fullscreen-blank": true,
+        "frame_returned": true,
+        "blank_clears_pixels": true,
+        "visible_labels": true,
+        "labels_clear_of_edges": true,
+        "priority_matches_first": true,
+        "fits_native_font_metrics": true,
+        "long_label_has_ellipsis": true,
+        "real_fullscreen_and_return": true,
+        "fullscreen_clears_pixels": true,
+        "saved_option_values": true,
+        "configured_colors_render": true
+      },
+      "source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "radio": "boxer",
+      "resolution": [
+        128,
+        64
+      ],
+      "firmware": "2.12.5",
+      "status": "PASS",
+      "checks": {
+        "process_exit": true,
+        "no_script_error": true,
+        "phase_labels": true,
+        "native_version": true,
+        "switch_evaluation": true,
+        "production_copy_unchanged": true,
+        "frame_armed": true,
+        "frame_disarmed": true,
+        "frame_motor-off": true,
+        "frame_priority": true,
+        "frame_blank": true,
+        "blank_clears_pixels": true,
+        "visible_labels": true,
+        "labels_clear_of_edges": true,
+        "priority_matches_first": true
+      },
+      "source_sha256": "b208bb0af5a0d507058eb6f5d749a969a62a5a29661b9417ef454416e0de4d61"
+    },
+    {
+      "radio": "pocket",
+      "resolution": [
+        128,
+        64
+      ],
+      "firmware": "2.12.5",
+      "status": "PASS",
+      "checks": {
+        "process_exit": true,
+        "no_script_error": true,
+        "phase_labels": true,
+        "native_version": true,
+        "switch_evaluation": true,
+        "production_copy_unchanged": true,
+        "frame_armed": true,
+        "frame_disarmed": true,
+        "frame_motor-off": true,
+        "frame_priority": true,
+        "frame_blank": true,
+        "blank_clears_pixels": true,
+        "visible_labels": true,
+        "labels_clear_of_edges": true,
+        "priority_matches_first": true
+      },
+      "source_sha256": "b208bb0af5a0d507058eb6f5d749a969a62a5a29661b9417ef454416e0de4d61"
+    },
+    {
+      "radio": "x9d+2019",
+      "resolution": [
+        212,
+        64
+      ],
+      "firmware": "2.12.5",
+      "status": "PASS",
+      "checks": {
+        "process_exit": true,
+        "no_script_error": true,
+        "phase_labels": true,
+        "native_version": true,
+        "switch_evaluation": true,
+        "production_copy_unchanged": true,
+        "frame_armed": true,
+        "frame_disarmed": true,
+        "frame_motor-off": true,
+        "frame_priority": true,
+        "frame_blank": true,
+        "blank_clears_pixels": true,
+        "visible_labels": true,
+        "labels_clear_of_edges": true,
+        "priority_matches_first": true
+      },
+      "source_sha256": "b208bb0af5a0d507058eb6f5d749a969a62a5a29661b9417ef454416e0de4d61"
+    }
+  ],
+  "method": "Pinned official EdgeTX firmware DLLs, native logical-switch evaluation, unchanged production Lua, direct framebuffer capture",
+  "limits": [
+    "Simulator firmware 2.12.5 only",
+    "Synthetic fixture models and logical-switch conditions",
+    "Not physical-radio validation",
+    "Observer invokes the unchanged production entry point and records drawing calls"
+  ],
+  "test_date_local": "2026-10-23",
+  "timezone": "America/Indianapolis",
+  "screenshots": [
+    {
+      "file": "images/native-tx16smk3.png",
+      "radio": "tx16smk3",
+      "phase": "fullscreen",
+      "firmware": "2.12.5",
+      "sha256": "62a6e74e4217a57631c47d3273c7a02cd9012e351ed9afba6435cb7d0055d8d3",
+      "production_source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "file": "images/native-tx16s.png",
+      "radio": "tx16s",
+      "phase": "armed",
+      "firmware": "2.12.5",
+      "sha256": "42222120a5d040f68dbf0527e02a1cef889e133346707b67e2a62efeea5821ca",
+      "production_source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "file": "images/native-tx15.png",
+      "radio": "tx15",
+      "phase": "disarmed",
+      "firmware": "2.12.5",
+      "sha256": "5926bd868ebf0a20015ce4f7222a5521e5246cd90ceac0c6de023be588696765",
+      "production_source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "file": "images/native-nv14.png",
+      "radio": "nv14",
+      "phase": "fullscreen",
+      "firmware": "2.12.5",
+      "sha256": "0ac9a67e13e50e6de4d520cb5ac60ae10e6852f9d817e5752be6941d1760c49f",
+      "production_source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "file": "images/native-pa01.png",
+      "radio": "pa01",
+      "phase": "fullscreen",
+      "firmware": "2.12.5",
+      "sha256": "dd691a56f8543d5fc53014f926a52696cc754f159666f6cf2ea3cd57cc4d50d4",
+      "production_source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "file": "images/native-boxer.png",
+      "radio": "boxer",
+      "phase": "armed",
+      "firmware": "2.12.5",
+      "sha256": "66acfb679807ab3f87c344aad94585bc4f95be5cd474f1b3e57c547a367e5260",
+      "production_source_sha256": "b208bb0af5a0d507058eb6f5d749a969a62a5a29661b9417ef454416e0de4d61"
+    },
+    {
+      "file": "images/native-pocket.png",
+      "radio": "pocket",
+      "phase": "motor-off",
+      "firmware": "2.12.5",
+      "sha256": "04329a68ffc1a47e5c76a0d288aacd3e0e7014d3e64f286fb195c91fe6019555",
+      "production_source_sha256": "b208bb0af5a0d507058eb6f5d749a969a62a5a29661b9417ef454416e0de4d61"
+    },
+    {
+      "file": "images/native-x9d2019.png",
+      "radio": "x9d+2019",
+      "phase": "disarmed",
+      "firmware": "2.12.5",
+      "sha256": "c5a94aa2ae20cf63cda3fc26618945b193dca104e9701a674724170ef3508dac",
+      "production_source_sha256": "b208bb0af5a0d507058eb6f5d749a969a62a5a29661b9417ef454416e0de4d61"
+    },
+    {
+      "file": "images/native-small.png",
+      "radio": "tx16s",
+      "phase": "small",
+      "firmware": "2.12.5",
+      "sha256": "40157668a195974edccddb081879f97b1fd352410e333cadb0e6816b495c3c0d",
+      "production_source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    },
+    {
+      "file": "images/native-long-small.png",
+      "radio": "tx16s",
+      "phase": "long-small",
+      "firmware": "2.12.5",
+      "sha256": "ac5b25597b949c841ab995697c1120f84eded3baf361864b0dc0cdc081937d5e",
+      "production_source_sha256": "9ff43bab1cf7b2ffc6232439b571245eec909e862a252ba89d8d387087c462dd"
+    }
+  ]
+}
